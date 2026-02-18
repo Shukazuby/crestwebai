@@ -15,7 +15,7 @@ function HeroSection() {
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base text-crest-text/90 sm:text-lg">
           One prompt creates a complete single-page website: hero, sections, theme, and code.
-          Copy the HTML and use it anywhere—no coding required.
+          Copy the HTML and use it anywhere, no coding required.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <GetStartedCta variant="crestPrimary" size="lg">
@@ -165,7 +165,7 @@ function FeaturesSection() {
               </div>
               <CardTitle>Full Page, Not Just Copy</CardTitle>
               <CardDescription>
-                We generate a complete single-page website: hero, about, services, contact, and footer—with real HTML, CSS, and optional JavaScript, not just text blocks.
+                We generate a complete single-page website: hero, about, services, contact, and footer with real HTML, CSS, and optional JavaScript, not just text blocks.
               </CardDescription>
             </CardHeader>
           </Card>
@@ -187,7 +187,7 @@ function FeaturesSection() {
               </div>
               <CardTitle>Copy the Code and Go</CardTitle>
               <CardDescription>
-                Preview your site, then copy the full HTML (or sections). Drop it into any host or static site—no lock-in, no subscription needed to use the code.
+                Preview your site, then copy the full HTML (or sections). Drop it into any host or static site,no lock-in, no subscription needed to use the code.
               </CardDescription>
             </CardHeader>
           </Card>

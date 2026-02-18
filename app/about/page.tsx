@@ -26,7 +26,8 @@ export default function AboutPage() {
             About CrestWeb AI
           </h1>
           <p className="mt-6 max-w-xl mx-auto text-lg leading-relaxed text-crest-text/80">
-            We turn a short description into a full single-page website. You get real HTML, CSS, and code—not just copy—so you can host your site anywhere.
+            We turn a short description into a full single-page website. 
+            You get real HTML, CSS, and code not just copy, so you can host your site anywhere.
           </p>
         </div>
       </header>
@@ -43,7 +44,8 @@ export default function AboutPage() {
               Why we exist
             </h2>
             <p className="mt-4 text-crest-text/85 leading-[1.75]">
-              CrestWeb AI was built for people who want a real website without hiring a developer or learning to code. You describe your business and style; we generate a complete single-page site with hero, sections, theme, and code. Preview it, copy the HTML, and use it anywhere—no lock-in.
+              CrestWeb AI was built for people who want a real website without hiring a developer or learning to code. You describe your business and style; 
+              we generate a complete single-page site with hero, sections, theme, and code. Preview it, copy the HTML, and use it anywhere,no lock-in.
             </p>
           </section>
 
@@ -58,7 +60,7 @@ export default function AboutPage() {
             <ul className="mt-8 space-y-4">
               {[
                 "A website should be a full page with layout and code, not just text.",
-                "You should own the output—copy the code and host it wherever you want.",
+                "You should own the output, copy the code and host it wherever you want.",
                 "Theme and tone should match your brand; you choose colors or let the AI suggest.",
               ].map((text, i) => (
                 <li
@@ -89,7 +91,7 @@ export default function AboutPage() {
             </h2>
             <div className="mt-6 rounded-2xl border border-crest-text/5 bg-gradient-to-br from-crest-primary/5 to-crest-accent/5 px-6 py-8 sm:px-8 sm:py-10">
               <p className="text-lg leading-[1.8] text-crest-text/90 sm:text-xl">
-                Solopreneurs, local businesses, freelancers, and small teams who want a real single-page website—with layout, sections, and code—without hiring a developer or learning HTML.
+                Solopreneurs, local businesses, freelancers, and small teams who want a real single-page website with layout, sections, and code,without hiring a developer or learning HTML.
               </p>
               <p className="mt-4 font-medium text-crest-text">
                 If you’d rather describe your business once and get a full site to preview and copy, CrestWeb AI is for you.

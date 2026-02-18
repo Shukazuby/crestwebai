@@ -54,7 +54,7 @@ function Footer({ className }: FooterProps) {
         </div>
 
         <p className="mt-8 text-center text-sm text-crest-text/70">
-          © {new Date().getFullYear()} CrestWeb AI. Prompt to website—generate full single-page sites with code.
+          © {new Date().getFullYear()} CrestWeb AI. Prompt to website, generate full single-page sites with code.
         </p>
       </div>
     </footer>

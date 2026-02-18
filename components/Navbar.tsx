@@ -39,6 +39,25 @@ function LogoIcon({ className }: { className?: string }) {
   );
 }
 
+function UserAccountIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={cn("h-5 w-5", className)}
+      aria-hidden
+    >
+      <circle cx="12" cy="8" r="4" />
+      <path d="M20 21a8 8 0 0 0-16 0" />
+    </svg>
+  );
+}
+
 export interface NavbarProps {
   className?: string;
 }
@@ -88,14 +107,15 @@ function Navbar({ className }: NavbarProps) {
         <div className="flex items-center gap-3">
           {user ? (
             <>
-              <span className="text-sm text-crest-text/80" title="Credits remaining">
-                {user.credits} credit{user.credits !== 1 ? "s" : ""}
-              </span>
-              <Button variant="crestSecondary" size="default" asChild>
-                <Link href="/my-websites">My websites</Link>
-              </Button>
-              <Button variant="crestSecondary" size="default" asChild>
-                <Link href="/account">Account</Link>
+              <Button
+                variant="crestSecondary"
+                size="icon"
+                className="bg-crest-primary/10 text-crest-primary hover:bg-crest-primary/20"
+                asChild
+              >
+                <Link href="/account" aria-label="Account">
+                  <UserAccountIcon />
+                </Link>
               </Button>
               <Button variant="crestPrimary" size="default" asChild>
                 <Link href="/dashboard">Dashboard</Link>

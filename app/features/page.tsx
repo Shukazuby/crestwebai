@@ -9,7 +9,7 @@ const FEATURES = [
     icon: "brain",
     title: "Prompt to full page",
     description:
-      "Describe your business and optional style. Our AI generates a complete single-page website: hero, about, services, contact, footer—with real HTML, CSS, and optional JavaScript.",
+      "Describe your business and optional style. Our AI generates a complete single-page website: hero, about, services, contact, footer with real HTML, CSS, and optional JavaScript.",
   },
   {
     icon: "store",
@@ -21,7 +21,7 @@ const FEATURES = [
     icon: "copy",
     title: "Copy the code",
     description:
-      "Preview your site, then copy the full HTML (or just HTML, CSS, or JS). Use it in any host, static site, or CMS—you own the output with no lock-in.",
+      "Preview your site, then copy the full HTML (or just HTML, CSS, or JS). Use it in any host, static site, or CMS you own the output with no lock-in.",
   },
   {
     icon: "tone",

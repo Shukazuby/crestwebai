@@ -60,7 +60,8 @@ export default function DashboardPage() {
             Create your website from one prompt
           </h1>
           <p className="mt-2 text-base text-crest-text/80">
-            Enter your business name and a short description. We&apos;ll generate a full single-page site—hero, sections, theme, and code—that you can preview and copy.
+            Enter your business name and a short description. We&apos;ll generate 
+            a full single-page site with hero, sections, theme, and code that you can preview and copy.
           </p>
 
           {lastError && (

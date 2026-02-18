@@ -65,6 +65,20 @@ export default function AccountPage() {
             Update your profile. From the dashboard you can generate and preview websites.
           </p>
 
+          <div className="mt-6 flex flex-wrap items-center gap-3 rounded-lg border border-crest-text/10 bg-crest-background px-4 py-3">
+            <span className="text-sm font-medium text-crest-text" title="Credits remaining">
+              {user.credits} credit{user.credits !== 1 ? "s" : ""} remaining
+            </span>
+            <Button
+              variant="crestSecondary"
+              size="default"
+              className="bg-crest-primary/10 text-crest-primary hover:bg-crest-primary/20"
+              asChild
+            >
+              <Link href="/my-websites">My websites</Link>
+            </Button>
+          </div>
+
           <form onSubmit={handleSubmit} className="mt-8 space-y-5">
             {saved && (
               <p className="text-sm text-crest-primary bg-crest-primary/10 border border-crest-primary/20 rounded-md px-3 py-2" role="status">
@@ -97,7 +111,13 @@ export default function AccountPage() {
               <Button type="submit" variant="crestPrimary" size="default">
                 Save changes
               </Button>
-              <Button type="button" variant="crestOutline" size="default" asChild>
+              <Button
+                type="button"
+                variant="crestOutline"
+                size="default"
+                className="bg-crest-primary/10 hover:bg-crest-primary/20"
+                asChild
+              >
                 <Link href="/dashboard">Go to Dashboard</Link>
               </Button>
             </div>
@@ -108,8 +128,8 @@ export default function AccountPage() {
               type="button"
               variant="crestSecondary"
               size="default"
+              className="bg-slate-200 text-crest-text hover:bg-slate-300"
               onClick={handleLogout}
-              className="text-crest-text"
             >
               Log out
             </Button>
