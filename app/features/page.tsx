@@ -27,7 +27,7 @@ const FEATURES = [
     icon: "tone",
     title: "Your theme, your tone",
     description:
-      "Set primary, accent, background, and text colors—or leave them blank and let the AI pick. Choose tone: professional, friendly, casual, or formal.",
+      "Set primary, accent, background, and text colors or leave them blank and let the AI pick. Choose tone: professional, friendly, casual, or formal.",
   },
   {
     icon: "layers",
